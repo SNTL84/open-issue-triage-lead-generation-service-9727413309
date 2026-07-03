@@ -31,47 +31,85 @@
 > 🚀 **Automate What's Costing You Time** · SNTL 84 · Agentic AI Workflow Professional
 > Lead Generation · Fulfillment Automation · Full-Stack Builds · AI Workflows · Supply Chain BI
 
+<br/>
+
+<!-- GITHUB ACHIEVEMENT BADGES -->
+![Commits](https://img.shields.io/badge/Commits-Active-brightgreen?style=flat-square&logo=github)
+![PRs](https://img.shields.io/badge/Open_PRs-2-01696f?style=flat-square&logo=git)
+![Merged](https://img.shields.io/badge/Merged_PR-1_✅-success?style=flat-square)
+![Repos Triaged](https://img.shields.io/badge/Repos_Triaged-6-blueviolet?style=flat-square)
+![Issues Touched](https://img.shields.io/badge/Issues_Triaged-11-orange?style=flat-square)
+![React Core](https://img.shields.io/badge/React_Core-Contributor-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node Core](https://img.shields.io/badge/Node.js_Core-Contributor-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+
 <br/><br/>
 
 </div>
 
 ---
 
-## 📅 Master Index — Timeline of All Activities
+## 📅 Master Index — Complete Activity Timeline
 
-> Complete chronological record of every triage session, comment, PR, fork, and contribution. Newest first.
+> **The definitive chronological record** of every triage session, comment, PR, fork, commit, and contribution. Every row is a live link. Newest first.
+>
+> 📌 **Legend:**
+> `🔍 Read` · `📚 Analysis` · `🔎 Code Trace` · `💬 Comment` · `🍴 Fork` · `🌿 Branch` · `🧪 Commit` · `🚀 PR` · `📋 Log` · `💰 Assessment` · `📝 Profile` · `🐳 DevOps` · `⚡ Feature` · `🎨 UI` · `🐛 Bug`
 
-| # | Date | Time (IST) | Repository | Issue / Action | Type | Output | Impact |
-|---|------|------------|------------|----------------|------|--------|--------|
-| 1 | Jun 30, 2026 | 5:20 PM | [facebook/react](https://github.com/facebook/react) | [#17355 — Scheduler re-entrancy bug](https://github.com/facebook/react/issues/17355) | 🔍 Triage Read | Root cause traced | HIGH |
-| 2 | Jun 30, 2026 | 5:22 PM | [facebook/react](https://github.com/facebook/react) | [#17355 — 151-comment thread analysis](https://github.com/facebook/react/issues/17355) | 📚 Analysis | Pattern identified across Firefox/IE/Edge | HIGH |
-| 3 | Jun 30, 2026 | 5:25 PM | [facebook/react](https://github.com/facebook/react) | [#17355 — Root cause confirmed](https://github.com/facebook/react/blob/main/packages/scheduler/src/forks/Scheduler.js) | 🔎 Code Trace | `isPerformingWork` re-entrancy via `MessageChannel` | HIGH |
-| 4 | Jun 30, 2026 | 5:28 PM | [facebook/react](https://github.com/facebook/react) | [#17355 — Monetary value assessed](https://github.com/facebook/react/issues/17355) | 💰 Assessment | ~100k+ apps, Sentry flood | HIGH |
-| 5 | Jun 30, 2026 | 5:30 PM | [SNTL84/open-issue-triage](https://github.com/SNTL84/open-issue-triage) | Triage record added to README | 📋 Log | Full code block + solution path | — |
-| 6 | Jun 30, 2026 | 3:58 PM | [nodejs/undici](https://github.com/nodejs/undici) | [#1373 — Root cause confirmed](https://github.com/nodejs/undici/issues/1373) | 🔍 Triage Read | 30s→300s timeout gap identified | MEDIUM |
-| 7 | Jun 30, 2026 | 4:00 PM | [nodejs/undici](https://github.com/nodejs/undici) | [#1373 — Triage comment posted](https://github.com/nodejs/undici/issues/1373#issuecomment-4842427744) | 💬 Comment | Citations to 4 source files, PR offer | MEDIUM |
-| 8 | Jun 30, 2026 | 4:02 PM | [nodejs/undici](https://github.com/nodejs/undici) | [Code search — `300e3` defaults confirmed](https://github.com/nodejs/undici/blob/main/types/client.d.ts) | 🔎 Code Search | `client.d.ts`, `Client.md`, `symbols.js` | MEDIUM |
-| 9 | Jun 30, 2026 | 4:04 PM | [SNTL84/undici](https://github.com/SNTL84/undici) | [Fork initiated — `nodejs/undici`](https://github.com/SNTL84/undici) | 🍴 Fork | Forked to SNTL84 | — |
-| 10 | Jun 30, 2026 | 4:04 PM | [SNTL84/undici](https://github.com/SNTL84/undici) | [Branch created — `fix/issue-1373-default-timeout-test`](https://github.com/SNTL84/undici/tree/fix/issue-1373-default-timeout-test) | 🌿 Branch | Fix branch ready | — |
-| 11 | Jun 30, 2026 | 4:04 PM | [SNTL84/undici](https://github.com/SNTL84/undici) | [Regression test committed](https://github.com/SNTL84/undici/blob/fix/issue-1373-default-timeout-test/test/issue-1373-default-timeout.js) | 🧪 Commit | `test/issue-1373-default-timeout.js` | MEDIUM |
-| 12 | Jun 30, 2026 | 4:06 PM | [nodejs/undici](https://github.com/nodejs/undici) | [PR #5467 opened → `nodejs/undici:main`](https://github.com/nodejs/undici/pull/5467) | 🚀 PR | Open PR to upstream | MEDIUM |
-| 13 | Jun 30, 2026 | 4:06 PM | [nodejs/undici](https://github.com/nodejs/undici) | [PR linkback comment posted](https://github.com/nodejs/undici/issues/1373#issuecomment-4842448990) | 📝 Comment | Thread updated with PR link | — |
-| 14 | Jun 30, 2026 | 4:11 PM | [SNTL84/open-issue-triage](https://github.com/SNTL84/open-issue-triage) | [Triage record added](https://github.com/SNTL84/open-issue-triage/blob/main/triages/nodejs-undici-1373-default-timeout-regression.md) | 📋 Log | Full session record committed | — |
-| 15 | Jun 25, 2026 | 2:56 PM | [calcom/cal.diy](https://github.com/calcom/cal.diy) | [#28979 — Root cause confirmed](https://github.com/calcom/cal.com/issues/28979) | 🔍 Triage Read | `useRef` guard kills reactive updates | HIGH |
-| 16 | Jun 25, 2026 | 2:57 PM | [calcom/cal.diy](https://github.com/calcom/cal.diy) | [#28979 — Triage comment posted](https://github.com/calcom/cal.diy/issues/28979#issuecomment-4797753409) | 💬 Comment | 3 fix options, test cases, file table | HIGH |
-| 17 | Jun 25, 2026 | 3:13 PM | [SNTL84/cal.diy](https://github.com/SNTL84/cal.diy) | [Fork initiated — `calcom/cal.diy`](https://github.com/SNTL84/cal.diy) | 🍴 Fork | Forked to SNTL84 | — |
-| 18 | Jun 25, 2026 | 3:20 PM | [SNTL84/cal.diy](https://github.com/SNTL84/cal.diy) | [Fix branch created](https://github.com/SNTL84/cal.diy/tree/fix/embed-react-config-prop-ignored-after-mount) | 🌿 Branch | `fix/embed-react-config-prop-ignored-after-mount` | — |
-| 19 | Jun 25, 2026 | 3:20 PM | [SNTL84/cal.diy](https://github.com/SNTL84/cal.diy) | [Source fix committed — `Cal.tsx`](https://github.com/SNTL84/cal.diy/commit/3a3f4223b46bf77b8c4e79ffdf27359dbb6fab81) | 🔧 Commit | Split `useEffect` — init + reactive | HIGH |
-| 20 | Jun 25, 2026 | 3:25 PM | [calcom/cal.diy](https://github.com/calcom/cal.diy) | [Draft PR #29643 opened](https://github.com/calcom/cal.diy/pull/29643) | 🚀 PR | Open draft PR to upstream | HIGH |
-| 21 | Jun 25, 2026 | 3:25 PM | [SNTL84/SNTL84](https://github.com/SNTL84/SNTL84) | [Profile README updated — embed-react specialist badge](https://github.com/SNTL84/SNTL84/commit/ef6e239b77ce5dc9dbf6d143e0a1ea5c956930c6) | 📝 Profile | Portfolio positioning updated | — |
-| 22 | Jun 25, 2026 | — | [type-challenges/type-challenges](https://github.com/type-challenges/type-challenges) | [#38224 — MinusOne enhanced solution](https://github.com/type-challenges/type-challenges/issues/38224#issuecomment-4797379914) | 💬 Comment | Borrow propagation + zero guard + `SplitTail` | MEDIUM |
-| 23 | Jun 25, 2026 | — | [DogStark/petChain-Frontend](https://github.com/DogStark/petChain-Frontend) | [#575 — Chart Formatter Props typed](https://github.com/DogStark/petChain-Frontend/issues/575#issuecomment-4797528640) | 💬 Comment | Dual-option fix, `any` removed | LOW |
-| 24 | Jun 25, 2026 | — | [DogStark/petChain-Frontend](https://github.com/DogStark/petChain-Frontend) | [#595 — Console logging cleanup](https://github.com/DogStark/petChain-Frontend/issues/595#issuecomment-4797253120) | 💬 Comment | Production hygiene, before/after | LOW |
-| 25 | Jun 23, 2026 | — | [ishandutta2007/Velocity](https://github.com/ishandutta2007/Velocity) | [#23 — Agentic IDE architectural roadmap](https://github.com/ishandutta2007/Velocity/issues/23#issuecomment-4781618559) | 💬 Discussion | Runtime boundary architecture diagram | MEDIUM |
-| 26 | Jun 23, 2026 | — | [ishandutta2007/Velocity](https://github.com/ishandutta2007/Velocity) | [#17 — Missing artifacts directory](https://github.com/ishandutta2007/Velocity/issues/17#issuecomment-4781386607) | 🐛 Bug + PR | 6 vitest tests + [PR #25](https://github.com/ishandutta2007/Velocity/pull/25) ✅ **merged** | HIGH |
-| 27 | Jun 23, 2026 | — | [ishandutta2007/Velocity](https://github.com/ishandutta2007/Velocity) | [#12 — Dockerfile missing](https://github.com/ishandutta2007/Velocity/issues/12#issuecomment-4781829668) | 🐳 DevOps | Full Dockerfile + compose spec | MEDIUM |
-| 28 | Jun 23, 2026 | — | [ishandutta2007/Velocity](https://github.com/ishandutta2007/Velocity) | [#11 — API support for automation](https://github.com/ishandutta2007/Velocity/issues/11#issuecomment-4781434180) | ⚡ Feature | REST API design + auth spec | MEDIUM |
-| 29 | Jun 23, 2026 | — | [ishandutta2007/Velocity](https://github.com/ishandutta2007/Velocity) | [#10 — Colored Tab Groups + Pin support](https://github.com/ishandutta2007/Velocity/issues/10#issuecomment-4781752167) | 🎨 Feature/UI | UI spec + colour token table | LOW |
+<details>
+<summary><b>🔽 Click to expand — Full 29-entry activity log with ecosystem context</b></summary>
+
+| # | Date | Time (IST) | Ecosystem | Repository | Issue / Action | Type | Artifact / Output | Impact | Status |
+|---|------|------------|-----------|------------|----------------|------|-------------------|--------|--------|
+| 1 | Jun 30, 2026 | 5:20 PM | ⚛️ React | [facebook/react](https://github.com/facebook/react) <br/>![Stars](https://img.shields.io/github/stars/facebook/react?style=flat-square&label=★) | [#17355 — Scheduler re-entrancy bug](https://github.com/facebook/react/issues/17355) | 🔍 Triage Read | Root cause traced to `isPerformingWork` guard | ![HIGH](https://img.shields.io/badge/Impact-HIGH-red?style=flat-square) | 🟠 Open 2019 |
+| 2 | Jun 30, 2026 | 5:22 PM | ⚛️ React | [facebook/react](https://github.com/facebook/react) | [#17355 — 151-comment thread analysis](https://github.com/facebook/react/issues/17355) | 📚 Analysis | Pattern mapped: Firefox · IE11 · Edge Legacy · Safari iOS · Chrome 68 | ![HIGH](https://img.shields.io/badge/Impact-HIGH-red?style=flat-square) | 🟠 Open 2019 |
+| 3 | Jun 30, 2026 | 5:25 PM | ⚛️ React | [facebook/react](https://github.com/facebook/react) | [#17355 — Root cause confirmed in Scheduler.js](https://github.com/facebook/react/blob/main/packages/scheduler/src/forks/Scheduler.js) | 🔎 Code Trace | `isPerformingWork` re-entrancy via `MessageChannel` — line-level pinpoint | ![HIGH](https://img.shields.io/badge/Impact-HIGH-red?style=flat-square) | 🟠 Open 2019 |
+| 4 | Jun 30, 2026 | 5:28 PM | ⚛️ React | [facebook/react](https://github.com/facebook/react) | [#17355 — Commercial impact assessed](https://github.com/facebook/react/issues/17355) | 💰 Assessment | ~100k+ apps silently flooding Sentry · HIGH portfolio value | ![HIGH](https://img.shields.io/badge/Impact-HIGH-red?style=flat-square) | 🟠 Open 2019 |
+| 5 | Jun 30, 2026 | 5:30 PM | 📋 Self | [SNTL84/open-issue-triage](https://github.com/SNTL84/open-issue-triage) | Triage record committed to README | 📋 Log | Full code block + 3-tier solution path documented | — | ✅ Done |
+| 6 | Jun 30, 2026 | 3:58 PM | 🟢 Node.js | [nodejs/undici](https://github.com/nodejs/undici) <br/>![Stars](https://img.shields.io/github/stars/nodejs/undici?style=flat-square&label=★) | [#1373 — headersTimeout 30s→300s gap identified](https://github.com/nodejs/undici/issues/1373) | 🔍 Triage Read | 30s vs 300s timeout confirmed · no regression guard | ![MEDIUM](https://img.shields.io/badge/Impact-MEDIUM-orange?style=flat-square) | 🟠 Open |
+| 7 | Jun 30, 2026 | 4:00 PM | 🟢 Node.js | [nodejs/undici](https://github.com/nodejs/undici) | [#1373 — Triage comment posted](https://github.com/nodejs/undici/issues/1373#issuecomment-4842427744) | 💬 Comment | 4 source file citations · test case · PR offer | ![MEDIUM](https://img.shields.io/badge/Impact-MEDIUM-orange?style=flat-square) | 💬 Live |
+| 8 | Jun 30, 2026 | 4:02 PM | 🟢 Node.js | [nodejs/undici](https://github.com/nodejs/undici) | [Code confirmed — `300e3` in client.d.ts · Client.md · symbols.js](https://github.com/nodejs/undici/blob/main/types/client.d.ts) | 🔎 Code Search | 3 files verified confirming 300s is correct default | ![MEDIUM](https://img.shields.io/badge/Impact-MEDIUM-orange?style=flat-square) | ✅ Done |
+| 9 | Jun 30, 2026 | 4:04 PM | 🟢 Node.js | [SNTL84/undici](https://github.com/SNTL84/undici) | [Fork initiated — nodejs/undici](https://github.com/SNTL84/undici) | 🍴 Fork | Forked to SNTL84 namespace | — | ✅ Done |
+| 10 | Jun 30, 2026 | 4:04 PM | 🟢 Node.js | [SNTL84/undici](https://github.com/SNTL84/undici) | [Branch — `fix/issue-1373-default-timeout-test`](https://github.com/SNTL84/undici/tree/fix/issue-1373-default-timeout-test) | 🌿 Branch | Fix branch scoped and ready | — | ✅ Done |
+| 11 | Jun 30, 2026 | 4:04 PM | 🟢 Node.js | [SNTL84/undici](https://github.com/SNTL84/undici) | [Regression test committed](https://github.com/SNTL84/undici/blob/fix/issue-1373-default-timeout-test/test/issue-1373-default-timeout.js) | 🧪 Commit | `test/issue-1373-default-timeout.js` — 35s slow server, asserts no HeadersTimeoutError | ![MEDIUM](https://img.shields.io/badge/Impact-MEDIUM-orange?style=flat-square) | ✅ Done |
+| 12 | Jun 30, 2026 | 4:06 PM | 🟢 Node.js | [nodejs/undici](https://github.com/nodejs/undici) | [PR #5467 opened → nodejs/undici:main](https://github.com/nodejs/undici/pull/5467) | 🚀 PR | ![PR Open](https://img.shields.io/badge/PR-%235467_Open-01696f?style=flat-square) Open PR to upstream Node.js core | ![MEDIUM](https://img.shields.io/badge/Impact-MEDIUM-orange?style=flat-square) | 🔥 Open |
+| 13 | Jun 30, 2026 | 4:06 PM | 🟢 Node.js | [nodejs/undici](https://github.com/nodejs/undici) | [PR linkback comment posted](https://github.com/nodejs/undici/issues/1373#issuecomment-4842448990) | 📝 Comment | Thread updated with PR link — maintainers notified | — | 💬 Live |
+| 14 | Jun 30, 2026 | 4:11 PM | 📋 Self | [SNTL84/open-issue-triage](https://github.com/SNTL84/open-issue-triage) | [Triage record committed](https://github.com/SNTL84/open-issue-triage/blob/main/triages/nodejs-undici-1373-default-timeout-regression.md) | 📋 Log | Full session record with timeline + code | — | ✅ Done |
+| 15 | Jun 25, 2026 | 2:56 PM | ⚛️ React | [calcom/cal.diy](https://github.com/calcom/cal.diy) <br/>![Stars](https://img.shields.io/github/stars/calcom/cal.com?style=flat-square&label=★) | [#28979 — useRef guard kills reactive updates](https://github.com/calcom/cal.com/issues/28979) | 🔍 Triage Read | `initializedRef.current` short-circuits every useEffect re-run | ![HIGH](https://img.shields.io/badge/Impact-HIGH-red?style=flat-square) | 🔥 Open |
+| 16 | Jun 25, 2026 | 2:57 PM | ⚛️ React | [calcom/cal.diy](https://github.com/calcom/cal.diy) | [#28979 — Triage comment posted](https://github.com/calcom/cal.diy/issues/28979#issuecomment-4797753409) | 💬 Comment | 3 fix options · test case specs · file-level change table | ![HIGH](https://img.shields.io/badge/Impact-HIGH-red?style=flat-square) | 💬 Live |
+| 17 | Jun 25, 2026 | 3:13 PM | ⚛️ React | [SNTL84/cal.diy](https://github.com/SNTL84/cal.diy) | [Fork initiated — calcom/cal.diy](https://github.com/SNTL84/cal.diy) | 🍴 Fork | Forked to SNTL84 namespace | — | ✅ Done |
+| 18 | Jun 25, 2026 | 3:20 PM | ⚛️ React | [SNTL84/cal.diy](https://github.com/SNTL84/cal.diy) | [Fix branch — `fix/embed-react-config-prop-ignored-after-mount`](https://github.com/SNTL84/cal.diy/tree/fix/embed-react-config-prop-ignored-after-mount) | 🌿 Branch | Scoped branch for Cal.tsx useEffect split | — | ✅ Done |
+| 19 | Jun 25, 2026 | 3:20 PM | ⚛️ React | [SNTL84/cal.diy](https://github.com/SNTL84/cal.diy) | [Source fix committed — Cal.tsx](https://github.com/SNTL84/cal.diy/commit/3a3f4223b46bf77b8c4e79ffdf27359dbb6fab81) | 🧪 Commit | Split `useEffect` — init effect + reactive config effect | ![HIGH](https://img.shields.io/badge/Impact-HIGH-red?style=flat-square) | ✅ Done |
+| 20 | Jun 25, 2026 | 3:25 PM | ⚛️ React | [calcom/cal.diy](https://github.com/calcom/cal.diy) | [Draft PR #29643 opened](https://github.com/calcom/cal.diy/pull/29643) | 🚀 PR | ![PR Open](https://img.shields.io/badge/PR-%2329643_Draft-orange?style=flat-square) Draft PR to calcom upstream | ![HIGH](https://img.shields.io/badge/Impact-HIGH-red?style=flat-square) | 🔥 Open |
+| 21 | Jun 25, 2026 | 3:25 PM | 👤 Profile | [SNTL84/SNTL84](https://github.com/SNTL84/SNTL84) | [Profile README updated — embed-react specialist badge](https://github.com/SNTL84/SNTL84/commit/ef6e239b77ce5dc9dbf6d143e0a1ea5c956930c6) | 📝 Profile | Portfolio positioning updated — `@calcom/embed-react Specialist` | — | ✅ Done |
+| 22 | Jun 25, 2026 | — | 🧩 TypeScript | [type-challenges/type-challenges](https://github.com/type-challenges/type-challenges) <br/>![Stars](https://img.shields.io/github/stars/type-challenges/type-challenges?style=flat-square&label=★) | [#38224 — MinusOne enhanced solution](https://github.com/type-challenges/type-challenges/issues/38224#issuecomment-4797379914) | 💬 Comment | Borrow propagation · zero guard · `SplitTail` · full annotation · TS 4.8 shorthand | ![MEDIUM](https://img.shields.io/badge/Impact-MEDIUM-orange?style=flat-square) | 💬 Live |
+| 23 | Jun 25, 2026 | — | 🐾 Frontend | [DogStark/petChain-Frontend](https://github.com/DogStark/petChain-Frontend) | [#575 — Chart Formatter Props typed](https://github.com/DogStark/petChain-Frontend/issues/575#issuecomment-4797528640) | 💬 Comment | Dual-option fix · `any` removed · approach comparison table | ![LOW](https://img.shields.io/badge/Impact-LOW-lightgrey?style=flat-square) | 💬 Live |
+| 24 | Jun 25, 2026 | — | 🐾 Frontend | [DogStark/petChain-Frontend](https://github.com/DogStark/petChain-Frontend) | [#595 — Console logging cleanup](https://github.com/DogStark/petChain-Frontend/issues/595#issuecomment-4797253120) | 💬 Comment | Prod hygiene · before/after blocks · aligned to `_app.tsx` gating pattern | ![LOW](https://img.shields.io/badge/Impact-LOW-lightgrey?style=flat-square) | 💬 Live |
+| 25 | Jun 23, 2026 | — | 🏗️ Agentic IDE | [ishandutta2007/Velocity](https://github.com/ishandutta2007/Velocity) | [#23 — Agentic IDE architectural roadmap](https://github.com/ishandutta2007/Velocity/issues/23#issuecomment-4781618559) | 💬 Discussion | Full runtime boundary architecture diagram: Editor / Agentic / Orchestration layers | ![MEDIUM](https://img.shields.io/badge/Impact-MEDIUM-orange?style=flat-square) | 💬 Live |
+| 26 | Jun 23, 2026 | — | 🏗️ Agentic IDE | [ishandutta2007/Velocity](https://github.com/ishandutta2007/Velocity) | [#17 — Missing artifacts directory breaks build](https://github.com/ishandutta2007/Velocity/issues/17#issuecomment-4781386607) | 🐛 Bug + PR | 6 vitest tests · ESM import chain traced · [**PR #25 ✅ MERGED**](https://github.com/ishandutta2007/Velocity/pull/25) | ![HIGH](https://img.shields.io/badge/Impact-HIGH-red?style=flat-square) | ✅ Merged |
+| 27 | Jun 23, 2026 | — | 🏗️ Agentic IDE | [ishandutta2007/Velocity](https://github.com/ishandutta2007/Velocity) | [#12 — Dockerfile missing](https://github.com/ishandutta2007/Velocity/issues/12#issuecomment-4781829668) | 🐳 DevOps | Full Dockerfile + compose spec · multi-stage build | ![MEDIUM](https://img.shields.io/badge/Impact-MEDIUM-orange?style=flat-square) | 💬 Live |
+| 28 | Jun 23, 2026 | — | 🏗️ Agentic IDE | [ishandutta2007/Velocity](https://github.com/ishandutta2007/Velocity) | [#11 — API support for automation](https://github.com/ishandutta2007/Velocity/issues/11#issuecomment-4781434180) | ⚡ Feature | REST API design + auth spec + endpoint table | ![MEDIUM](https://img.shields.io/badge/Impact-MEDIUM-orange?style=flat-square) | 💬 Live |
+| 29 | Jun 23, 2026 | — | 🏗️ Agentic IDE | [ishandutta2007/Velocity](https://github.com/ishandutta2007/Velocity) | [#10 — Colored Tab Groups + Pin support](https://github.com/ishandutta2007/Velocity/issues/10#issuecomment-4781752167) | 🎨 Feature/UI | UI spec + colour token table + interaction design | ![LOW](https://img.shields.io/badge/Impact-LOW-lightgrey?style=flat-square) | 💬 Live |
+
+</details>
+
+---
+
+## 📊 Impact Dashboard
+
+<div align="center">
+
+| 🏆 Metric | Count | Detail |
+|-----------|-------|--------|
+| **Repos Contributed To** | **6** | facebook/react · nodejs/undici · calcom/cal.diy · type-challenges · petChain-Frontend · Velocity |
+| **Issues Triaged** | **11** | Across React core · Node.js core · Scheduling · TypeScript · DevOps |
+| **PRs Submitted** | **3** | Velocity #25 ✅ merged · cal.diy #29643 🔥 open · undici #5467 🔥 open |
+| **HIGH impact sessions** | **4** | facebook/react #17355 · calcom #28979 · Velocity #17 · cal.diy fix |
+| **React Core Issues** | **2** | facebook/react (20M+ weekly downloads) · calcom/cal.diy |
+| **Node.js Core Issues** | **1** | nodejs/undici — powers Node 18+ built-in fetch |
+| **Ecosystem stars touched** | **300k+** | React 230k · cal.com 32k · undici 6k · type-challenges 44k |
+| **Active Since** | Jun 23, 2026 | 8 days · accelerating |
+
+</div>
 
 ---
 
